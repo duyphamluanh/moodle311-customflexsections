@@ -1,0 +1,193 @@
+.format-flexsections .course-content ul.flexsections {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.format-flexsections .course-content ul.flexsections li.section {
+    padding-bottom: 0.5rem;
+    margin-left: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 1rem;
+}
+.course-content ul.flexsections ul.section {
+    border: 1px solid #ddd;
+    box-shadow: 4px 2px #d5d5d5;
+    padding: 0.5rem !important;
+}
+.format-flexsections .course-content ul.flexsections-level-0 > li.section {
+    margin-left: 0;
+    padding-left: 0;
+}
+.course-content ul.flexsections li.section.main {
+    /* Cancel borders added by boost */
+    border-bottom: 0;
+}
+.format-flexsections .course-content ul.flexsections-level-1 > li.section.main {
+    border-bottom: 1px solid #dee2e6;
+}
+.format-flexsections .course-content ul.flexsections-level-1 > li.section.main:last-child {
+    border-bottom: 0;
+}
+.format-flexsections .course-content ul.flexsections li.section .controls img {
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+}
+.format-flexsections .header.backto {
+    margin-bottom: 1rem;
+}
+
+/* Hidden section. */
+.format-flexsections .course-content li.section.hidden > .content > h3.sectionname,
+.format-flexsections .course-content li.section.hidden > .content > h3.sectionname a,
+.format-flexsections .course-content li.section.hidden > .content > .summary,
+.format-flexsections .course-content li.section.hidden .addresourcemodchooser a,
+.format-flexsections .course-content li.section.hidden a.addsection {
+    color: #aaa;
+}
+
+/* Moving section */
+.format-flexsections .course-content ul.flexsections li.section.ismoving {
+    background: #eee;
+}
+.format-flexsections .course-content ul.flexsections li.movehere img {
+    padding-left: 1rem;
+}
+.format-flexsections .course-content div.cancelmoving {
+    margin: 3px;
+    padding: 5px;
+    background: yellow;
+    border: 1px solid black;
+    text-align: center;
+    position: fixed;
+    top: 100px;
+    right: 0;
+    z-index: 3;
+}
+
+.format-flexsections .tab-content{
+    border: 1px solid #dee2e6;
+    border-top: none;
+    padding: .5rem;
+}
+
+/* //////////////////// */
+/* Addition custom css */
+/* Flex-sections tabs */
+/* ///////////////// */
+.format-flexsections .nav-tabs .nav-item .nav-link{
+    color: #495057;
+    border: none;
+}
+.format-flexsections .nav-tabs .nav-item .nav-link:hover{
+    color: #4950579a;
+}
+.format-flexsections .nav-tabs .nav-item .nav-link.active{
+    color: #1177d1;
+    border: 1px solid #dee2e6;
+    border-bottom: none;
+}
+.format-flexsections .nav-tabs .nav-item:first-child .nav-link{
+    border-top-left-radius: 1.5rem;
+}
+.format-flexsections .nav-tabs .nav-item:last-child .nav-link{
+    border-top-right-radius: 1.5rem;
+}
+
+.format-flexsections .flexsections-level-1 .elo_collapsetitle:before {
+    display: block;
+    font-family: "FontAwesome";
+    content: '\f0d7';
+    float: left;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #0066cc;
+}
+
+.format-flexsections .flexsections-level-2 .elo_collapsetitle:before {
+    color: #3f3f3f;
+}
+
+.format-flexsections .elo_collapsetitle:hover {
+    color: #0066cc;
+}
+
+.format-flexsections img.activityicon {
+    width: 16px !important;
+    height: 16px !important;
+}
+
+.sectiontitle-1{
+    display: block;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: none;
+    color: #06c;
+    margin-left: 1rem;
+}
+
+.sectiontitle-2,
+.sectiontitle-3,
+.sectiontitle-4,
+.sectiontitle-5{
+    display: block;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: none;
+    margin-left: 1rem;
+}
+
+
+.collapsetitle.collapsed:before {
+    content: '\f0da' !important;
+}
+
+.collapsetitle:before{
+    font-family: "FontAwesome";
+    content: '\f0d7' !important;
+    display: block;
+    float: left;
+    padding: 10px 0;
+    color: #06c;
+}
+
+.flexsections-level-2 .collapsetitle:before {
+    color: #3f3f3f;
+}
+
+@media screen and (max-width: 768px ){
+    .format-flexsections .nav-tabs .nav-item .nav-link{
+        width: 100%;
+        border-radius: .25rem !important;
+    }
+
+}
+
+@media screen and (max-width: 600px ){
+    .format-flexsections .nav-tabs .nav-item{
+        width: 100%;
+    }
+
+}
+
+textarea:focus, input:focus, button:focus, a:focus{
+    outline: none;
+}
+
+.format-flexsections .maincalendar .calendarmonth td {
+    border: 1px solid #dee2e6;
+}
+
+.format-flexsections .course_activitive_table thead th {
+    background-color: #dee2e6;
+}
+
+.format-flexsections .maincalendar .calendarmonth th{
+    padding: 10px 18px;
+    background-color:  #dee2e6;
+    border: 1px solid #fff;
+}
+
+ul#flexsectionsTab {
+    -webkit-margin-start: 0;
+}
